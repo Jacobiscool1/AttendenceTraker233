@@ -138,7 +138,9 @@ select option {
     margin-top: 0px;
     transform: rotate(-405deg);
 }
-  
+  #newclass{
+    width:318px;
+  }
 @media (max-width: 700px) {
     .menu-button-container {
         display: flex;
@@ -183,3 +185,37 @@ select option {
         border-bottom: 1px solid #444;
     }
   }
+@media (max-width: 480px) {
+    .menu-button-container {
+        display: flex;
+    }
+    body{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    table{  
+        width: 95vw;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    } 
+     tr{  
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }     
+    #newclass{
+        width: 200px;
+    }
+    Option{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #itemList {
+        width: 90vw;
+        height: 400px;
+        border: 1px solid gray;
+    }
+    .splashlogo{
+        width: 20px;
+    }
+}
